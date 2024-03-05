@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #b095a7;
+  }
+  
+  /* .header {
+    background-color: #e188b3;
+    background-image: url(WebPictures/pinkHead.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    color: #fff;
+    padding: 100px 0;
+    position: sticky;
+    text-indent: 20px;
+    z-index: 1000;
+    background-color: #f4b0dc;
+    font-family: Garamond, serif;
+    padding: 20px 0;
+    top: 0;
+    background-image: url('WebPictures/pinkHeader.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    height: 200px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+  } */
+
+  .headerOverlay{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+    background-image: url(WebPictures/StringLight.png);
+    background-size: cover;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+
+  .sticky {
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
